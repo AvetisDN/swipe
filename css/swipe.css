@@ -1,0 +1,22 @@
+html, body {
+    background-color: #eaebec;
+    margin: 0;
+    height: 100%;
+}
+#side-menu {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    right: -340px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    max-width: 80vw;
+    width: 320px;
+    font-size: 24px;
+    box-shadow: rgba(0,0,0,.2) 0 0 15px;
+    transition: 300ms ease;
+}
+#side-menu.show{
+    right: 0;
+}
